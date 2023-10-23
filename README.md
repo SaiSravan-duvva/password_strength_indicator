@@ -1,7 +1,7 @@
-# password_strength_indicator
+
 # Password Strength Indicator
 
-![Project Image](project-image-url)
+![Project Image](project-image-url.png)
 
 > A simple web application that uses python code to checks and displays the strength of passwords for a login page.
 
