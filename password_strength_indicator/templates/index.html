@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Strength Indicator</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            background-color: #f9f9f9;
+        }
+
+        h2 {
+            color:  #007BFF;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: ;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Password Strength Indicator</h2>
+        <form method="POST">
+            <label for="password">Enter your password:</label>
+            <input type="" name="password" id="password">
+            <input type="submit" value="Check Strength">
+        </form>
+        {% if strength_level %}
+            <p>Password strength: {{ strength_level }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
