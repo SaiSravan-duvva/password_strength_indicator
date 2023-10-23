@@ -42,14 +42,12 @@ The Password Strength Indicator is a web application built with Python and Flask
 
 1. Install the required dependencies:
 
-```bash
+~~~bash
+pip install -r requirements.txt 
 
-pip install -r requirements.txt
-Run the application:
-
-```bash
+##Run the application:
 
 python app.py
 
-Open a web browser and navigate to http://localhost:5000 to use the application.
+## Open a web browser and navigate to http://localhost:5000 to use the application.
 
