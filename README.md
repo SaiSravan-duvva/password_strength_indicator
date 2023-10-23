@@ -3,8 +3,7 @@
 
 ![Project Image](project-image-url.png)
 
-> A simple web application that uses python code to checks and displays the strength of passwords for a login page.
-
+> A simple a login page on our website using Python and Flask to checks and displays the strength of passwords for a login page.or 
 ---
 
 ## Table of Contents
